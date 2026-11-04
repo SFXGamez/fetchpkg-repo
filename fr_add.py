@@ -47,6 +47,8 @@ def get_metadata(package):
 
         if key == "depend":
             metadata.setdefault("dependencies", []).append(value)
+        elif key == "provides":
+            metadata.setdefault("provides", []).append(value)
         else:
             metadata[key] = value
 
@@ -62,7 +64,8 @@ def get_metadata(package):
     return {
         "name": metadata["pkgname"],
         "version": metadata["pkgver"],
-        "dependencies": metadata.get("dependencies", [])
+        "dependencies": metadata.get("dependencies", []),
+        "provides": metadata.get("provides", [])
     }
 
 
@@ -125,6 +128,7 @@ def main():
         "version": metadata["version"],
         "file": f"packages/{source.name}",
         "dependencies": metadata["dependencies"],
+        "provides": metadata["provides"],
         "sha256": digest
     }
 
