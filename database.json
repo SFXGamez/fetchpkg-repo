@@ -2,7 +2,7 @@
     "packages": {
         "neofetch": {
             "version": "7.1.0",
-            "file": "packages/neofetch-7.1.0-1-any.tar.zst",
+            "file": "packages/neofetch.tar.zst",
             "dependencies": ["bash"],
             "sha256": "553a8af284aa1844963fb583d1616e2cbdf56352e6f0d8f430845e61d184e1b9"
         }
