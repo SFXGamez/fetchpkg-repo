@@ -24,6 +24,14 @@
                 "glibc"
             ],
             "sha256": "9d23b8c5ea00af3722e2239f2c27ed498eeb8e0bed9086bfa8d5519f89de1757"
+        },
+        "cmatrix": {
+            "version": "2.0-4",
+            "file": "packages/cmatrix-2.0-4-x86_64.pkg.tar.zst",
+            "dependencies": [
+                "ncurses"
+            ],
+            "sha256": "936e4875b2380fe01ed2fb50dbdd886d372a2cc7c52bc7cf9bb8826290b93e7e"
         }
     }
 }
