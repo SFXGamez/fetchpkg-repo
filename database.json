@@ -32,6 +32,25 @@
                 "ncurses"
             ],
             "sha256": "936e4875b2380fe01ed2fb50dbdd886d372a2cc7c52bc7cf9bb8826290b93e7e"
+        },
+        "cava": {
+            "version": "1.0.0-1",
+            "file": "packages/cava-1.0.0-1-x86_64.pkg.tar.zst",
+            "dependencies": [
+                "fftw",
+                "glibc",
+                "iniparser",
+                "alsa-lib",
+                "jack",
+                "libpipewire",
+                "libpulse",
+                "portaudio",
+                "sndio",
+                "libglvnd",
+                "ncurses",
+                "sdl2"
+            ],
+            "sha256": "9cb89f9e2d5ad0cd7b20e74fe611210834125af9fc7a856ddb7055ea8018f09f"
         }
     }
 }
