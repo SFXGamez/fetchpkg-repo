@@ -16,6 +16,14 @@
                 "yyjson"
             ],
             "sha256": "cb8190be7ca69c221f7c4b04833f905ade8d58edcc8787ab905733e52028be40"
+        },
+        "yyjson": {
+            "version": "0.13.0-1",
+            "file": "packages/yyjson-0.13.0-1-x86_64.pkg.tar.zst",
+            "dependencies": [
+                "glibc"
+            ],
+            "sha256": "9d23b8c5ea00af3722e2239f2c27ed498eeb8e0bed9086bfa8d5519f89de1757"
         }
     }
 }
